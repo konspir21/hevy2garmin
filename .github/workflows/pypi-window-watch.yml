@@ -8,8 +8,7 @@ name: PyPI deprecation window watch
 # Same shape as hevy-spec-watch.yml (#524), which keeps the equivalent promise on #237.
 
 on:
-  schedule:
-    - cron: "23 6 * * 1"   # Mondays 06:23 UTC, six minutes after the spec watch
+  
   workflow_dispatch:
     inputs:
       dry_run:
